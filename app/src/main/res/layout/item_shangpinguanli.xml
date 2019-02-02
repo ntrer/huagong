@@ -1,0 +1,247 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/linear_border2"
+    android:layout_marginStart="@dimen/dp_15"
+    android:layout_marginEnd="@dimen/dp_15"
+    android:layout_marginBottom="@dimen/dp_15"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/dingjin_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/xielie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_12"
+            android:text=""
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_below="@id/dingjin_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="@drawable/shape_line_dash"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layerType="software"
+        />
+
+
+    <RelativeLayout
+        android:layout_below="@+id/line"
+        android:id="@+id/xinghao"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="型号"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+        <TextView
+            android:id="@+id/xinghao_text"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:text=""
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/xinghao"
+        android:id="@+id/bolili"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="剥离力/N"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+        <TextView
+            android:id="@+id/bolili_text"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:text=""
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/bolili"
+        android:id="@+id/naiwenxing"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="耐温性"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+        <TextView
+            android:id="@+id/naiwenxing_text"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/naiwenxing"
+        android:id="@+id/fenziliang"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="分子量"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+        <TextView
+            android:id="@+id/fenziliang_text"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/fenziliang"
+        android:id="@+id/guhanliang"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="固含量"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+        <TextView
+            android:id="@+id/guhanliang_text"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/guhanliang"
+        android:id="@+id/difei"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="@dimen/dp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="低沸含量"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+        <TextView
+            android:id="@+id/difei_text"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/textColor3"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
